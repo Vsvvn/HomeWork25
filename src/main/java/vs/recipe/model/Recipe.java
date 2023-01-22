@@ -9,6 +9,6 @@ import java.util.List;
 public class Recipe {
     private String name;
     private int cookingTime;
-    private List<Ingredient> count;
+    private List<Ingredient> ingredients;
     private List<String> steps;
 }

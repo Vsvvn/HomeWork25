@@ -14,7 +14,7 @@ public class RecipeController {
         this.recipeService = recipeService;
     }
 
-    @GetMapping("{/id}")
+    @GetMapping("/{id}")
     public Recipe getRecipeId(@PathVariable Long id) {
         return recipeService.getRecipe(id);
     }

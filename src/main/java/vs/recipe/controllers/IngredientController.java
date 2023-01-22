@@ -14,7 +14,7 @@ public class IngredientController {
         this.ingredientService = ingredientService;
     }
 
-    @GetMapping("{/id}")
+    @GetMapping("/{id}")
     public Ingredient getIngredientId(@PathVariable Long id) {
         return ingredientService.getIngredient(id);
     }
